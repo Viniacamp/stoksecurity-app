@@ -1,0 +1,54 @@
+
+<ion-toolbar>
+  <ion-item class="div-img"><img src="assets/img/Logo Stok.png"><a routerLink="/carrinho" slot="end"><ion-icon name="cart-sharp" slot="end"></ion-icon></a></ion-item>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col><img src="assets\img\icon-perfil.png" alt="Icone perfil"> </ion-col>
+        <ion-col size="8">tccparanoa</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <br>
+  <ion-card>
+    <small>RE: 37652</small>
+    <br><br>
+    <small>Setor: Produção</small>
+    <br><br>
+    <small>E-mail: tccparanoa@gmail.com</small>
+    <br>
+  </ion-card>
+  <br><br>
+  <a routerLink="/config" class="a1">
+    <ion-item button detail="true">
+      <ion-label>
+        <h3>Configurações</h3>
+      </ion-label>
+    </ion-item>
+  </a>
+  <a routerLink="/historico" class="a1">
+    <ion-item button detail="true">
+      <ion-label>
+        <h3>Histórico de solicitações</h3>
+      </ion-label>
+    </ion-item>
+  </a>
+  <a (click)="openCapacitorSite()" class="a1">
+    <ion-item button detail="true">
+      <ion-label>
+        <h3>Suporte</h3>
+      </ion-label>
+    </ion-item>
+  </a>
+
+  <div class="a">
+    <a (click)="logout()">Sair</a>
+  </div>
+
+  <div class="small1">
+    <small>Versão 0.6.0.beta</small>
+  </div>
+</ion-content>

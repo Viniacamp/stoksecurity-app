@@ -1,0 +1,116 @@
+<ion-content>
+<br><br><br>
+<div class="return">
+  <a (click)="goBack()"><ion-icon name="arrow-back-sharp" slot="end"></ion-icon></a>
+</div>
+<br><br><br><br>
+<h3>Histórico</h3>
+<hr/>
+
+<ion-list lines="none" class="ordenar">
+  <ion-item>
+    <ion-select interface="popover" lines="none" placeholder="Ordenar por">
+      <ion-select-option value="nomec">Nome (A a Z)</ion-select-option>
+      <ion-select-option value="nomea">Nome (Z a A)</ion-select-option>
+    </ion-select>
+    <ion-buttons slot="end">
+      <ion-button id="open-modal" expand="block">Filtrar por</ion-button>
+    </ion-buttons>
+  </ion-item>
+</ion-list>
+
+<ion-modal trigger="open-modal">
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-button (click)="cancel()">Cancelar</ion-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+          <ion-button (click)="confirm()">Aplicar</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+  </ng-template>
+</ion-modal>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Item</ion-label>
+          <ion-label>Data</ion-label>
+          <ion-label>Quant.</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <br><br>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Mascara KN95</ion-label>
+          <ion-label>20/03/2022 <br> 12:03:43</ion-label>
+          <ion-label>3 uni.</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Prot Aur. Simples</ion-label>
+          <ion-label>20/03/2022 <br> 12:03:43</ion-label>
+          <ion-label>3 uni.</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Mascara KN95</ion-label>
+          <ion-label>20/03/2022 <br> 12:03:43</ion-label>
+          <ion-label>3 uni.</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Mascara KN95</ion-label>
+          <ion-label>20/03/2022 <br> 12:03:43</ion-label>
+          <ion-label>3 uni.</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Mascara KN95</ion-label>
+          <ion-label>20/03/2022 <br> 12:03:43</ion-label>
+          <ion-label>3 uni.</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>Mascara KN95</ion-label>
+          <ion-label>20/03/2022 <br> 12:03:43</ion-label>
+          <ion-label>3 uni.</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

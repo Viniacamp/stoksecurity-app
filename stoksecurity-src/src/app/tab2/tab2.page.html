@@ -1,0 +1,65 @@
+
+<ion-toolbar>
+  <ion-item class="div-img"><img src="assets/img/Logo Stok.png"><a routerLink="/carrinho" slot="end"><ion-icon name="cart-sharp" slot="end"></ion-icon></a></ion-item>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <div class="pagcatalogo">
+    <h1>Catálogo</h1>
+    <ion-searchbar color="light-dark" placeholder="Pesquisar no catálogo" [(ngModel)]="searchTerm" show-clear-button="always" value="Always Show"></ion-searchbar>
+
+    <ion-list lines="none" class="ordenar">
+      <ion-item>
+        <ion-select interface="popover" lines="none" placeholder="Ordenar por" [(ngModel)]="ordem" (ionChange)="orderItems()">
+          <ion-select-option value="asc">Nome (A a Z)</ion-select-option>
+          <ion-select-option value="desc">Nome (Z a A)</ion-select-option>
+        </ion-select>
+        <ion-buttons slot="end">
+          <ion-button id="open-modal" expand="block">Filtrar por</ion-button>
+        </ion-buttons>
+      </ion-item>
+    </ion-list>
+
+      <ion-modal trigger="open-modal">
+        <ng-template>
+          <ion-header>
+            <ion-toolbar>
+              <ion-buttons slot="start">
+                <ion-button (click)="cancel()">Cancelar</ion-button>
+              </ion-buttons>
+              <ion-title>Filtrar por</ion-title>
+              <ion-buttons slot="end">
+                <ion-button (click)="confirm()" [strong]="true">Aplicar</ion-button>
+              </ion-buttons>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content class="ion-padding">
+            <ion-list>
+              <ion-item>
+                <ion-label>Tipo</ion-label>
+                <ion-select [multiple]="true" interface="sublist" cancelText="Cancelar">
+                  <ion-select-option value="apples">Máscaras</ion-select-option>
+                  <ion-select-option value="oranges">Protetores auriculares</ion-select-option>
+                  <ion-select-option value="bananas">Óculos</ion-select-option>
+                </ion-select>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ng-template>
+      </ion-modal>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="5.8" *ngFor="let e of items | async | filter:searchTerm">
+          <a (click)="goToItemDetails(e.id)">
+          <img [src]="e.imagem">
+          <p>{{ e.nome }}</p><br>
+          </a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+
+  </ion-content>

@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+
+*{
+  margin: 0;
+  font-family: 'Codec Pro', sans-serif;
+}
+
+//cabeçalho da página
+ion-header{
+  ion-icon{
+    color: #18de7e;
+    font-size: 25px;
+    margin-left: 12px;
+    margin-top: 14px;
+    cursor: pointer;
+  }
+
+  ion-title{
+    margin-top: -20px;
+    margin-left: 28px;
+    font-size: 21px;
+  }
+}
+
+//lista dos itens
+ion-item{
+  margin-top: 9px;
+  ion-label{
+  color: black;
+  font-family: 'Codec Pro', sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: #18de7e;
+  }
+}
+
+h1{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(177, 176, 176);
+  margin-top: 370px;
+}
+
+ion-icon{
+  width: 18px;
+  height: 18px;
+}
+
+ion-button{
+  --color: #ffffff;
+}
+
+ion-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%; 
+}

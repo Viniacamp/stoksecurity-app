@@ -1,0 +1,7 @@
+{
+  "name": "StokSecurity",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

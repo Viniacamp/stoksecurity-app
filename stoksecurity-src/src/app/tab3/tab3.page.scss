@@ -1,0 +1,140 @@
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+
+*{
+  margin: 0;
+  font-family: 'Codec Pro', sans-serif;
+}
+
+//cabeçalho da pagina
+.div-img{
+  margin-left: -31px;
+  margin-top: -16px;
+  text-align: left;
+
+  img{
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 18px;
+  }
+
+  ion-icon{
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    color: #18de7e;
+    cursor: pointer;
+    }
+}
+
+.button{
+text-align: center;
+}
+
+ion-button{
+  --background: #1bab62;
+  --background-hover: #18de7e;
+  width: 200px;
+  border-radius: 16px;
+  font-family: 'Codec Pro' , sans-serif;
+}
+
+button{
+  border-radius: 20px;
+  width: 80px;
+  height: 25px;
+  font-size: 10px;
+}
+
+.pagsolicitacoes{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pagsolicitacoes h1{
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+//estilo do seletor (ordenar por)
+.ordenar{
+  margin-left: -5px;
+}
+
+ion-select{
+  width: 100%;
+}
+
+//estilo dos cards
+ion-card{
+  margin-bottom: 14px;
+}
+
+ion-card-content{
+  font-size: 15px;
+}
+
+ion-thumbnail {
+  width: 20px;
+  height: 20px;
+}
+
+ion-list{
+  height: 78px;
+  margin-bottom: -25px;
+  margin-left: -15px;
+  margin-top: -18px;
+}
+
+ion-item{
+  margin-bottom: -15px;
+  margin-top: -8px;
+  font-size: 14px;
+}
+
+ion-item-divider{
+  width: 100%;
+  border-top: 1px;
+  margin-top: -10px;
+}
+
+ion-button{
+  height: 25px;
+  width: 105px;
+  --color: white;
+  font-size: 11px;
+  margin-top: 5px;
+  margin-right: -1px;
+  float: right;
+}
+
+//status das solicitações
+.statusap {
+  background: rgb(63, 173, 49);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+.statusand {
+  background: rgb(235, 221, 27);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+.statusrej {
+  background: rgb(231, 14, 14);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+small{
+  padding-left: 8px;
+  font-size: 13px;
+}

@@ -1,0 +1,101 @@
+
+<ion-toolbar>
+  <ion-item class="div-img"><img src="assets/img/Logo Stok.png"><a routerLink="/carrinho" slot="end"><ion-icon name="cart-sharp" slot="end"></ion-icon></a></ion-item>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+
+  <ion-refresher slot="fixed" [pullFactor]="0.5" [pullMin]="100" [pullMax]="150" (ionRefresh)="handleRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+    <div class="pagsolicitacoes">
+      <h1>Minhas solicitações</h1>
+
+      <ion-list lines="none" class="ordenar">
+        <ion-item>
+          <ion-select interface="popover" lines="none" placeholder="Ordenar por" [(ngModel)]="ordem" (ionChange)="orderRequests()">
+            <ion-select-option value="desc" class="opcoes">Data da solicitação (mais recente)</ion-select-option>
+            <ion-select-option value="asc">Data da solicitação (mais antigo)</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-card *ngFor="let e of requests | async">
+        <ion-card-header>
+          <ion-card-subtitle>id:{{ e.id }} - {{ e.lastUpdate.toDate() | date: 'dd/MM/yyyy HH:mm'}}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list lines="none">
+            <ion-item>
+              <ion-thumbnail slot="start">
+                <img src="../assets/img/kn95.png" />
+              </ion-thumbnail>
+              <ion-label>2x Máscara KN95</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-thumbnail slot="start">
+                <img src="../assets/img/protetor_espuma.png" />
+              </ion-thumbnail>
+              <ion-label>3x Protetor Auricular (espuma)</ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-item-divider></ion-item-divider>
+            <img class="statusand"><small>Em andamento</small>
+            <ion-button (click)="presentAlertP()">Ver detalhes</ion-button>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>id:9ea28FyVeTxjt9IOs3oQ - 16/02/2023 16:10</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list lines="none">
+            <ion-item>
+              <ion-thumbnail slot="start">
+                <img src="../assets/img/kn95.png" />
+              </ion-thumbnail>
+              <ion-label>2x Máscara KN95</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-thumbnail slot="start">
+                <img src="../assets/img/protetor_espuma.png" />
+              </ion-thumbnail>
+              <ion-label>3x Protetor Auricular (espuma)</ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-item-divider></ion-item-divider>
+            <img class="statusap"><small>Aprovado</small>
+            <ion-button (click)="presentAlertAp()">Ver detalhes</ion-button>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>id:3OF9O71co8hQde4qxNqJ - 22/02/2023 14:15</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list lines="none">
+            <ion-item>
+              <ion-thumbnail slot="start">
+                <img src="../assets/img/kn95.png" />
+              </ion-thumbnail>
+              <ion-label>2x Máscara KN95</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-thumbnail slot="start">
+                <img src="../assets/img/protetor_espuma.png" />
+              </ion-thumbnail>
+              <ion-label>3x Protetor Auricular (espuma)</ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-item-divider></ion-item-divider>
+            <img class="statusrej"><small>Rejeitado</small>
+            <ion-button (click)="presentAlertRej()">Ver detalhes</ion-button>
+        </ion-card-content>
+      </ion-card>
+
+    </div>
+
+</ion-content>

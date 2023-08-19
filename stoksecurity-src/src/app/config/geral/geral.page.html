@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <a (click)="goBack()"><ion-icon name="arrow-back-sharp" slot="end"></ion-icon></a><ion-title>Geral</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <h3>Modo escuro</h3>
+      <ion-toggle slot="end" (ionChange)="onActivateDarkMode($event)"></ion-toggle><br/><br/>
+    </ion-item>
+  </ion-list>
+</ion-content>

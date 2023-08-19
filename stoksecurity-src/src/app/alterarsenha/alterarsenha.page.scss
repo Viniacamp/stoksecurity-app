@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+
+*{
+  font-family: 'Codec Pro' , sans-serif;
+}
+
+ion-content{
+  --background: url('/assets/img/EPI3.png') 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+  
+  ion-button {
+      --background: #06f07b;
+      --background-hover: #008643;
+      --background-activated: #88f4be;
+      --background-focused: #88f4be;
+
+      --color: white;
+
+      --border-radius: 13px;
+      --border: none
+
+      --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+      --ripple-color: deeppink;
+
+      --padding-top: 30px;
+      --padding-bottom: 10px;
+
+      width: 100%;
+      height: 50px;
+      text-align: center;
+
+    }
+
+  .div-img{
+    text-align: center;
+
+    img{
+      width: 180px;
+      margin-top: -10px;
+      margin-bottom: 20px;
+  }
+  }
+
+  ion-item{
+    border-bottom: solid 2px #18de7e;
+  }
+
+  .login{
+
+    width: 93%;
+    margin-left: 10px;
+    margin-top: 80px;
+
+    form{
+      background-color: var(--ion-color-primary-contrast);
+      box-shadow: none;
+      border-radius: 15px;
+      padding: 10px;
+
+      ion-item{
+        border: solid 1px #18de7e;
+        margin-top: 10px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        height: 50px;
+
+        ion-input{
+            margin-top: -15px;
+        }
+      }
+    }
+  }

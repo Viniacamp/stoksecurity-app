@@ -1,0 +1,98 @@
+[{
+    "nome": "Máscara KN95", 
+    "categoria": "Máscaras",
+    "marca": "3M",
+    "material": "Polipropileno não-tecido",
+    "mais_inf": "Elásticos auriculares para fixação na orelha; Clipe nasal ajustável para vedação personalizada",
+    "imagem": "https://cdn.awsli.com.br/600x450/476/476175/produto/153069609/2c24215835.jpg",
+    "qt_estoque": 200
+}, {
+    "nome": "Máscara de proteção descartável", 
+    "categoria": "Máscaras",
+    "marca": "RJ3",
+    "material": "Polipropileno, Cloreto de polivinilo (PVC), TNT",
+    "mais_inf": "Máscara descartável com camada tripla com elástico e clip nasal azul, com acabamento em toda a extremidade por soldagem eletrônica pontilhada.",
+    "imagem": "https://m.media-amazon.com/images/I/61LDD-0o5DL._AC_SX425_.jpg",
+    "qt_estoque": 180
+}, {
+    "nome": "Protetor auricular tipo pino (com cordão)", 
+    "categoria": "Protetores auriculares",
+    "marca": "3M",
+    "material": "Pino de plástico, polipropileno, poliéster",
+    "mais_inf": "Design dobrável para facilitar o armazenamento e transporte; Pino metálico para fixação nas conchas do capacete",
+    "imagem": "https://ultraepi.com.br/wp-content/uploads/2022/06/PROTETOR-AURICULAR-MAXXI-SILICONE-VERMELHO-CORDAO-DE-POLIPROPILENO-CA-11512-1.jpg",
+    "qt_estoque": 300  
+}, {
+    "nome": "Óculos de proteção", 
+    "categoria": "Óculos de proteção",
+    "marca": "Carbografite",
+    "material": "Plástico, acrílico",
+    "mais_inf": "Óculos de proteção Spectra 2000 incolor. Referência nacional em óculos de Segurança. Armação com encaixe para a lente. Filtro 99,9% Ultravioleta. Com tratamento antirrisco.",
+    "imagem": "https://cdn.rioepi.com.br/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/o/c/oculos-incolor-rj.jpg",
+    "qt_estoque": 150 
+}, {
+    "nome": "Protetor auricular de espuma tipo plug", 
+    "categoria": "Protetores auriculares",
+    "marca": "3M",
+    "material": "Polipropileno, poliéster",
+    "mais_inf": "Design dobrável para facilitar o armazenamento e transporte",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/995770/protetor_auricular_tipo_plug_3m_1110_em_espuma_com_cordao_7961_1_6a9508de4f8f047db1e24891f2b30c38.jpg",
+    "qt_estoque": 250
+}, {
+    "nome": "Abafador auricular tipo concha", 
+    "categoria": "Protetores auriculares",
+    "marca": "Delta Plus",
+    "material": "Plástico ABS, poliestireno",
+    "mais_inf": "Abafador de ruídos com conchas em poliestireno-PS, preenchidas com espuma de poliuretano-PU de baixa densidade, arco confeccionado em acrilonitrila butadieno estireno-ABS que permite regulagem de altura das conchas e almofadas de baixa pressão revestidas com material sintético.",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1168100/abafador_concha_delta_plus_spa3bl_blue_17db_c_a_34964_21_1_a2597b76c151cfdafd0498cdbf2d1172.jpg",
+    "qt_estoque": 100
+}, {
+    "nome": "Capacete", 
+    "categoria": "Capacetes",
+    "marca": "PlastCor",
+    "material": "Polietileno de baixa densidade",
+    "mais_inf": "O Capacete de Segurança tipo Joquei PLT da Plastcor conta com aba frontal e copa com estrias, injetado em polietileno de alta densidade e com slot",
+    "imagem": "https://anhangueraferramentas.fbitsstatic.net/img/p/capacete-de-seguranca-tipo-joquei-classe-a-b-plt-plastcor-103328/292126-2.jpg?w=800&h=800&v=no-change&qs=ignore",
+    "qt_estoque": 80
+}, {
+    "nome": "Bota de PVC", 
+    "categoria": "Botas",
+    "marca": "Fujiwara",
+    "material": "Policloreto de vinila (PVC)",
+    "mais_inf": "Calçado ocupacional de uso profissional, tipo bota PVC cano curto, impermeável, inteiro polimérico, confeccionado em policloreto de vinila (PVC), com resistência química, propriedades antiderrapantes e resistência a óleo combustível",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1168100/bota_de_pvc_fujiwara_88fpc600_sem_forro_cano_medio_preta_c_a_38200_305_1_f17b6628efd6871d2bbda5cda3f8a04e.jpg",
+    "qt_estoque": 100
+}, {
+    "nome": "Bota de bico de aço solado (botina)", 
+    "categoria": "Botas",
+    "marca": "Fujiwara",
+    "material": "Material não-tecido antibacteriano SANITEC, aço carbono, palmilha em EVA, poliuretano",
+    "mais_inf": "Calçado de segurança de uso profissional, tipo botina, fechamento em elástico, confeccionado em couro hidrofugado curtido ao cromo, palmilha de montagem em material sintético montada pelo sistema strobel, biqueira de aço, solado de poliuretano bidensidade com propriedade antiderrapante injetado diretamente no cabedal, com sistema de absorção de energia na região do salto, resistente ao óleo combustível.",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1168100/bota_fujiwara_4065hess2400fx_couro_bico_de_aco_solado_pu_c_a_28030_447_1_b62f68d6ee007ddf09d624e1d3223d95.jpg",
+    "qt_estoque": 100
+}, {
+    "nome": "Luva de PVC", 
+    "categoria": "Luvas",
+    "marca": "Plastcor",
+    "material": "PVC, algodão",
+    "mais_inf": "Luva de segurança confeccionada em PVC (plastissol) com forro de algodão, com palma áspera. ",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1168100/luva_de_pvc_forrada_palma_aspera_plastcor_45cm_c_a_34570_339_1_74cf5daa0c25bf456fc45f636e9795a7.jpg",
+    "qt_estoque": 300
+}, {
+    "nome": "Luva de algodão tricotada", 
+    "categoria": "Luvas",
+    "marca": "Super Safety",
+    "material": "Algodão, poliéster, PVC, elastano",
+    "mais_inf": "Luvas de segurança, tricotadas com fios de algodão e poliéster, com antiderrapante em pvc na face palmar, acabamento em overloque, punho com elastano.",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1152852/luva_tricotada_palma_pigmentada_4_fios_ca_33529_super_safety_203_1_20b835fcc6a8043802d2f99d9f198293.jpg",
+    "qt_estoque": 200
+}, {
+    "nome": "Luva descartavél", 
+    "categoria": "Luvas",
+    "marca": "Volk",
+    "material": "Borracha nitrílica",
+    "mais_inf": "Indicada para trabalhos gerais leves e médios, protegendo o trabalhador contra agentes químicos e solventes, cáusticos, óleos e gorduras especialmente animal, detergentes, diesel, gasolina, querosene, ceras, álcool, amônia e pesticidas. Atividades como pintura, aplicação de vernizes, trabalho de higienização e limpeza, manuseio de carnes e alimentos (açougue, sala de cortes e outros). ",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1152852/luva_tricotada_palma_pigmentada_4_fios_ca_33529_super_safety_203_1_20b835fcc6a8043802d2f99d9f198293.jpg",
+    "qt_estoque": 300
+}
+]

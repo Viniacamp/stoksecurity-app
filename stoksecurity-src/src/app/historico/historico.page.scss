@@ -1,0 +1,63 @@
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+
+*{
+  margin: 0;
+  font-family: 'Codec Pro' , sans-serif;
+}
+
+.return{
+  margin-top: 30px;
+  margin-right: 10px;
+  color: #1bab62;
+}
+
+/*Titulos*/
+ion-item{
+  width: 100%;
+  margin-left: -22px;
+  font-size: 13px;
+  border-bottom: solid 1px #18de7e;
+
+  ion-button{
+    color: #1bab62;
+  }
+}
+
+/*Histórico*/
+ion-grid{
+  text-align: center;
+}
+
+ion-col ion-label{
+  text-align: center;
+  font-size: 11px;
+}
+
+/*Titulo Histórico*/
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border-top: 3px solid #18de7e;
+  width: 120px;
+}
+
+h3{
+  margin-left: 20px;
+  line-height: 1px;
+}
+
+/*Botão voltar*/
+.a-voltar{
+  margin-top: 50px;
+}
+
+ion-button {
+  --color: #1bab62;
+  --border-radius: 10px;
+  --border: none;
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  margin-left: -15px;
+}

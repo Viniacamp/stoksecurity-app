@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="return">
+    <a (click)="goBack()"><ion-icon name="arrow-back-sharp" slot="end"></ion-icon></a>
+  </div>
+  <div class="page">
+    <img [src]="item?.imagem">
+    <h1>{{ item?.nome }}</h1>
+
+    <div class="inf">
+      <p><b>Informações do produto:</b></p>
+      <small><b>Nome:</b> {{ item?.nome }}</small><br>
+      <small><b>Material:</b> {{ item?.material }}</small><br>
+      <small><b>Marca:</b> {{ item?.marca }}</small><br>
+      <small><b>Informações adicionais:</b> {{ item?.mais_inf }}</small><br>
+      <small><b>Quantidade em Estoque:</b> {{ item?.qt_estoque }}</small><br>
+    </div>
+    
+    <div class="selector">
+      <ion-button [disabled]="!cart[item?.id] || cart[item?.id] === 0" (click)="removeFromCart($event, item)">-</ion-button>
+      <p>{{ cart[item?.id] || 0 }}</p>
+      <ion-button [disabled]="cart[item?.id] === 3" (click)="addToCart($event, item)">+</ion-button>
+    </div>
+
+    <ion-button [disabled]="!cart[item?.id] || cart[item?.id] === 0" expand="block" routerLink="/carrinho" (click)="alert()">Reservar</ion-button>
+  </div>
+</ion-content>
+

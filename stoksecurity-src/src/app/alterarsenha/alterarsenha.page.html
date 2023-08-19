@@ -1,0 +1,26 @@
+
+<ion-content>
+  <div class="login">
+
+    <h1>Alterar senha de acesso</h1>
+    <form>
+      <div class="div-img"><img src="assets/img/Logo Stok.png"></div>
+      Digite seu e-mail:
+      <ion-item>
+        <ion-label position="floating"></ion-label>
+        <ion-input type="text" name="username" placeholder="E-mail"></ion-input>
+      </ion-item>
+      <br>
+      Digite seu e-mail novamente:
+      <ion-item>
+        <ion-label position="floating"></ion-label>
+        <ion-input type="text" name="username" placeholder="E-mail" [(ngModel)]="email" (keyup.enter)="changePassword()"></ion-input>
+      </ion-item>
+
+      <ion-button (click)="changePassword()">Alterar Senha</ion-button>
+      <ion-button routerLink="/login">Voltar</ion-button>
+
+    </form>
+
+  </div>
+</ion-content>

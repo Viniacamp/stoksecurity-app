@@ -1,0 +1,24 @@
+
+<ion-header>
+  <ion-toolbar>
+    <a (click)="goBack()"><ion-icon name="arrow-back-sharp" slot="end"></ion-icon></a><ion-title>Carrinho</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1 *ngIf="cartMessage">{{ cartMessage }}</h1>
+  <ion-item *ngFor="let e of items">
+    <p slot="start">
+      {{ e.count }}x
+    </p>
+    <ion-label>
+      {{ e.nome }}
+    </ion-label>
+    <a><ion-icon name="trash-outline" (click)="removerItem($event, e)"></ion-icon></a>
+  </ion-item>
+
+  <ion-footer>
+    <ion-button [disabled]="isCartEmpty" class="btn" expand="full" (click)="checkout()" routerLink="/tabs/tabs/tab3">Enviar solicitação</ion-button>
+  </ion-footer>
+
+</ion-content>

@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+
+*{
+  margin: 0;
+  font-family: 'Codec Pro' , sans-serif;
+}
+
+//cabeçalho da pagina
+.div-img{
+  margin-left: -31px;
+  margin-top: -16px;
+  text-align: left;
+
+  img{
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 18px;
+  }
+
+  ion-icon{
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    color: #18de7e;
+    cursor: pointer;
+    }
+}
+
+ion-grid, ion-row, ion-col img{
+  width: 250px;
+  align-items: center;
+}
+
+ion-grid, ion-row, ion-col text{
+  font-size: 18px;
+
+}
+
+.txt{
+  margin-top: 30px;
+  width: 50px;
+}
+
+ion-card{
+  padding: 15px;
+  border-radius: 20px;
+  border: solid 1px #18de7e;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+small{
+  font-size: 15px;
+}
+
+h3{
+  font-size: 15px;
+}
+
+.a1{
+  text-decoration: none;
+}
+
+.a{
+  text-align: center;
+  margin-top: 70px;
+
+  a{
+    text-decoration: none;
+    color: #1bab62;
+  }
+}
+
+.small1 {
+  color: rgb(119, 119, 119);
+  text-align: center;
+  margin-top: 25px;
+
+  small{
+    font-size: 12px;
+  }
+}

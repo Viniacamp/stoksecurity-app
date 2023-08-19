@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+
+*{
+  margin: 0;
+  font-family: 'Codec Pro' , sans-serif;
+}
+
+img{
+    width: 250px;
+}
+
+//cabeçalho da pagina
+.div-img{
+  margin-left: -31px;
+  margin-top: -16px;
+  text-align: left;
+
+  img{
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 18px;
+  }
+
+  ion-icon{
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    color: #18de7e;
+    cursor: pointer;
+    }
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border-top: 2px solid #18de7e;
+  width: 160px;
+}
+
+h3{
+  margin-left: 20px;
+  margin-top: 40px;
+  line-height: 1px;
+  display: flex;
+}
+
+.banner img{
+  width: 100%;
+}
+
+h4{
+  margin-left: 10px;
+  margin-top: 40px;
+  font-size: 17px;
+}
+
+ion-card {
+  border: solid 1px #79d3a7;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  ion-list{
+    width: 110%;
+  }
+
+  ion-item{
+    font-size: 13px;
+    margin-left: -13px;
+    width: 100%;
+  }
+
+  ion-icon{
+    color: #18de7e;
+    margin-top: 20px;
+  }
+
+  ion-label{
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Codec Pro', sans-serif;
+    white-space: normal;
+    width: 100%;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,23 @@
+Novidades nessa versão (build 0.6.0.beta, compilada em 19/08/2023):
+
+Pagina de configurações:
+
+- Nova seção "Configurações" no app, onde vai ser possível alterar algumas funcionalidades do app, separado em seções (por enquanto, só está disponível as seções "Geral" e "Notificações" (não funcional) - outras seções e funções vão ser adicionadas em breve.
+
+Modo escuro:
+
+- Modo escuro aprimorado
+- Agora é possível alternar entre modo claro e escuro manualmente nas configurações.
+
+
+Melhorias e bugfixes:
+
+- Correção de inconsistências na interface quando o modo escuro do app está ativo (textos, cores de botões, caixas de dialogo etc.)
+- A opção "Esqueci a senha" na tela de login foi centralizada para o meio do card. 
+
+
+Problemas conhecidos:
+
+- Ao alternar entre modo claro e escuro no app, o seletor provavelmente não irá salvar a informação e, ao reabrir a pagina, ele voltará para o seu estado padrão (desabilitado). Esse problema será corrigido em breve.
+- A configuração do modo escuro provavelmente não será salva ao fechar o app por completo (encerrar o processo), só permanecendo enquanto ele estiver ativo (em primeiro ou segundo plano). Estamos analizando esse problema.
+- Ao pressionar o botão de voltar do dispositivo na telas iniciais do app (nas abas), o usuário será deslogado e retornará para a tela de login, precisando logar novamente. Estamos analizando esse problema.
